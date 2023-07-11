@@ -1,3 +1,6 @@
 This directory, july-2023, will contain sub-directories
 which will contain all the work and assignments done in 
 the month of july 2023 in PIAIC. 
+
+--
+assignments files have been added to the getting-started-typescript directory of july 2023.
