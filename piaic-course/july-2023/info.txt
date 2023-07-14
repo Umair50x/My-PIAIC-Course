@@ -4,3 +4,11 @@ the month of july 2023 in PIAIC.
 
 --
 assignments files have been added to the getting-started-typescript directory of july 2023.
+
+--
+First class contained very basic stuff downloading node, typescript etc
+secondly, those students who were already proficient with JS coding already
+were asked to take an assignment containing ts tasks which were basically just
+JS tasks
+
+--
