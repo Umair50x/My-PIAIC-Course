@@ -1,0 +1,24 @@
+{
+  "name": "meracalculator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ahmed's simple calculator having basic four operations.",
+  "main": "index.js", 
+  "bin": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^20.5.3"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.10"
+  }
+}
+
+
+
