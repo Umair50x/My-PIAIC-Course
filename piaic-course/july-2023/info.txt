@@ -12,3 +12,4 @@ were asked to take an assignment containing ts tasks which were basically just
 JS tasks
 
 --
+GETTING STARTED TYPESCRITPS' HAS PROBLEMS: MUST SEE LATER
