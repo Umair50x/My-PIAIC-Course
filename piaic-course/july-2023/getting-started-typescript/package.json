@@ -1,0 +1,16 @@
+{
+  "name": "getting-started-typescript",
+  "version": "1.0.0",
+  "description": "https://github.com/panaverse/typescript-node-projects/blob/main/getting-started-exercises.md",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.7"
+  }
+}
