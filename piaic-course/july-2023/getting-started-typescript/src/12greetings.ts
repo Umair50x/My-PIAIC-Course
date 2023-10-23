@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 import { anArray } from "./11names.js";
+
 let greetMsg = "Hope you are fine! ";
+
 console.log(greetMsg + anArray[0]);
 console.log(greetMsg + anArray[1]);
 console.log(greetMsg + anArray[2]);
