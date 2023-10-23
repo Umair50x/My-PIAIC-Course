@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const userArr: string[] = ["usr1", "admin", "usr2", "usr3"];
+export const userArr: string[] = ["usr1", "admin", "usr2", "usr3"];
 
 userArr.forEach((userArr) => {
   if (userArr.includes("admin")) {
