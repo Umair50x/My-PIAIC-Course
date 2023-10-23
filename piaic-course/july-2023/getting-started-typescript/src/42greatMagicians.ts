@@ -2,7 +2,7 @@
 
 import { magiciansArr, showMagician } from "./41magicians.js";
 
-function makeGreatMagician(magicians: string[]) {
+export function makeGreatMagician(magicians: string[]) {
   for (let i = 0; i < magicians.length; i++) {
     magicians[i] = "The Great " + magicians[i];
   }
