@@ -1,11 +1,15 @@
 #!/usr/bin/env node
 
 const pizzas: string[] = ["piza1", "piza2", "piza3"];
-
+console.log("My Fav Pizzas: ");
+for (let i = 0; i < pizzas.length; i++) {
+  console.log(pizzas[i]);   
+}
+console.log("\nMy Fav Pizzas list: ");
 for (const pizzaName of pizzas) {
   console.log(`I really like ${pizzaName}`);
 }
-console.log("I love pizzas!");
+console.log("\nI love pizzas!");
 
 //Pizzas: Think of at least three kinds of your favorite pizza.
 //Store these pizza names in a array, and then use a for loop to print the name of each pizza.
