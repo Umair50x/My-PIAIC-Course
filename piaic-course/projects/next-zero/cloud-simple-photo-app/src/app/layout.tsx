@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from '@/components/ui/button'
+import { cn } from '@/lib/utils'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -70,10 +71,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={cn("container mx-auto",inter.className)}>
         <div className="border-b ">
-          <div className="flex h-16 items-center px-4 container mx-auto">
-             Cloudinary Photos Application
+          <div className="flex h-16 items-center px-7 text-2xl">
+             Cloudinary Bucket
             <div className="ml-auto flex items-center space-x-4">
             <Avatar>
               <AvatarImage src="https://github.com/shadcn.png" />
@@ -83,9 +84,9 @@ export default function RootLayout({
           </div>
         </div>
 
-        <div className='flex container mx-auto'>
+        <div className='flex'>
           <Sidebar /> 
-          <div>
+          <div className='w-full'>
             {children}
           </div>
         </div>
