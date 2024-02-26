@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 
 export default function UploadButton() {
     return(
-        <Button>
+        <Button asChild>
             <div className="flex gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" 
                     fill="none" viewBox="0 0 24 24" 
